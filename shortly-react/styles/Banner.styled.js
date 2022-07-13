@@ -21,5 +21,9 @@ export const Title = styled.h1`
 
 `;
 
-export const AboutImage = styled.img`  
+export const AboutImage = styled.img` 
+width: 40%;
+height: 40%;
+position: relative;
+object-fit: contain;
 `;

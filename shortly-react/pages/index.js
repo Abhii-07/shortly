@@ -7,8 +7,6 @@ import UrlContainer from './Components/UrlContainer'
 
 export default function Home() {
   return (
-    // <div className={styles.container}>
-    // </div>
     <>
     <Navbar/>
     <Banner/>

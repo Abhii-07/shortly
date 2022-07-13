@@ -25,5 +25,5 @@ font-size:24px;
 padding:10px;
 border:0px;
 border-radius:5px;
-width:70%;
+// width:70%;
 `;

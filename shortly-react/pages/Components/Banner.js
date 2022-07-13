@@ -1,11 +1,13 @@
 import React from "react";
 import { AboutImage, StyledContent, Title } from "../../styles/Banner.styled";
+// import people from "../../Assets/people.png"
+import people2 from "../../Assets/people2.svg"
 
 const Banner = () => {
   return (
     <StyledContent>
         <Title>More than just shorter links</Title>
-        <AboutImage src="https://drive.google.com/file/d/1Xw7eZyzu_aa-12zM74BiY-0IIfxrBoJE/view?usp=sharing" />
+        <AboutImage src={people2} />
     </StyledContent>
   );
 };
