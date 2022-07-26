@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContent = styled.section`
+  align-item: center;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -8,22 +9,20 @@ export const StyledContent = styled.section`
   height: 100vh;
   border: 1px solid red;
   width: 1110px;
-  margin:auto;
+  margin: auto;
 `;
-
 
 export const Title = styled.h1`
   font-size: 80px;
   display: block;
   font-weight: 700;
   color: black;
-  border:1px solid red;
-
+  border: 1px solid red;
 `;
 
-export const AboutImage = styled.img` 
-width: 40%;
-height: 40%;
-position: relative;
-object-fit: contain;
+export const AboutImage = styled.img`
+  width: 40%;
+  height: 40%;
+  position: relative;
+  object-fit: contain;
 `;

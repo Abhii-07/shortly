@@ -15,7 +15,7 @@ export const Button = styled.button`
 margin-top:0px;
 font-size:24px;
 border:0px;
-width:auto;
+// width:auto;
 margin-left:1rem;
 border-radius:5px;
 `;
@@ -25,5 +25,5 @@ font-size:24px;
 padding:10px;
 border:0px;
 border-radius:5px;
-// width:70%;
+// width:100%;
 `;
